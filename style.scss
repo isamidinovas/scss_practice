@@ -1,0 +1,66 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.5)),
+    url(" https://envato-shoebox-0.imgix.net/2fe9/a1bb-1bee-489d-b4f9-3113d1e00caf/1-07720.jpg?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1200&s=8fbb45c7265a6ccece8fa489acd89ce5");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  .container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    .title {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-size: 66px;
+      font-weight: normal;
+      line-height: 1;
+      .bold_text {
+        font-weight: 700;
+      }
+    }
+    h3 {
+      opacity: 0.7;
+    }
+    .button {
+      font-size: 16px;
+      margin-top: 40px;
+      font-weight: 600;
+      padding: 12px 30px;
+      border-radius: 15px;
+      background-color: rgb(77, 190, 77);
+      border-style: none;
+    }
+    .button:hover {
+      background-color: rgb(62, 165, 62);
+    }
+    .contacts {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .contact {
+        .info {
+          opacity: 0.5;
+        }
+        .icon {
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
